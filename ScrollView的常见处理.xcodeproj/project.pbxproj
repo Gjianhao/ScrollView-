@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6283C11F9B3C27000BDC11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6283C01F9B3C27000BDC11 /* AppDelegate.m */; };
+		0A6283C41F9B3C27000BDC11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6283C31F9B3C27000BDC11 /* ViewController.m */; };
+		0A6283C71F9B3C27000BDC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6283C51F9B3C27000BDC11 /* Main.storyboard */; };
+		0A6283C91F9B3C27000BDC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6283C81F9B3C27000BDC11 /* Assets.xcassets */; };
+		0A6283CC1F9B3C27000BDC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6283CA1F9B3C27000BDC11 /* LaunchScreen.storyboard */; };
+		0A6283CF1F9B3C27000BDC11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6283CE1F9B3C27000BDC11 /* main.m */; };
+		0A6283D71F9B522C000BDC11 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6283D61F9B522C000BDC11 /* MTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A6283BC1F9B3C27000BDC11 /* ScrollView的常见处理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView的常见处理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6283BF1F9B3C27000BDC11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A6283C01F9B3C27000BDC11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A6283C21F9B3C27000BDC11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A6283C31F9B3C27000BDC11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A6283C61F9B3C27000BDC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A6283C81F9B3C27000BDC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6283CB1F9B3C27000BDC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6283CD1F9B3C27000BDC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6283CE1F9B3C27000BDC11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A6283D51F9B522C000BDC11 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
+		0A6283D61F9B522C000BDC11 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6283B91F9B3C27000BDC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6283B31F9B3C27000BDC11 = {
+			isa = PBXGroup;
+			children = (
+				0A6283BE1F9B3C27000BDC11 /* ScrollView的常见处理 */,
+				0A6283BD1F9B3C27000BDC11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6283BD1F9B3C27000BDC11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6283BC1F9B3C27000BDC11 /* ScrollView的常见处理.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6283BE1F9B3C27000BDC11 /* ScrollView的常见处理 */ = {
+			isa = PBXGroup;
+			children = (
+				0A6283BF1F9B3C27000BDC11 /* AppDelegate.h */,
+				0A6283C01F9B3C27000BDC11 /* AppDelegate.m */,
+				0A6283C21F9B3C27000BDC11 /* ViewController.h */,
+				0A6283C31F9B3C27000BDC11 /* ViewController.m */,
+				0A6283C51F9B3C27000BDC11 /* Main.storyboard */,
+				0A6283C81F9B3C27000BDC11 /* Assets.xcassets */,
+				0A6283CA1F9B3C27000BDC11 /* LaunchScreen.storyboard */,
+				0A6283CD1F9B3C27000BDC11 /* Info.plist */,
+				0A6283CE1F9B3C27000BDC11 /* main.m */,
+				0A6283D51F9B522C000BDC11 /* MTViewController.h */,
+				0A6283D61F9B522C000BDC11 /* MTViewController.m */,
+			);
+			path = "ScrollView的常见处理";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6283BB1F9B3C27000BDC11 /* ScrollView的常见处理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6283D21F9B3C27000BDC11 /* Build configuration list for PBXNativeTarget "ScrollView的常见处理" */;
+			buildPhases = (
+				0A6283B81F9B3C27000BDC11 /* Sources */,
+				0A6283B91F9B3C27000BDC11 /* Frameworks */,
+				0A6283BA1F9B3C27000BDC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScrollView的常见处理";
+			productName = "ScrollView的常见处理";
+			productReference = 0A6283BC1F9B3C27000BDC11 /* ScrollView的常见处理.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A6283B41F9B3C27000BDC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Gjianhao;
+				TargetAttributes = {
+					0A6283BB1F9B3C27000BDC11 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A6283B71F9B3C27000BDC11 /* Build configuration list for PBXProject "ScrollView的常见处理" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A6283B31F9B3C27000BDC11;
+			productRefGroup = 0A6283BD1F9B3C27000BDC11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A6283BB1F9B3C27000BDC11 /* ScrollView的常见处理 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A6283BA1F9B3C27000BDC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6283CC1F9B3C27000BDC11 /* LaunchScreen.storyboard in Resources */,
+				0A6283C91F9B3C27000BDC11 /* Assets.xcassets in Resources */,
+				0A6283C71F9B3C27000BDC11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6283B81F9B3C27000BDC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6283C41F9B3C27000BDC11 /* ViewController.m in Sources */,
+				0A6283D71F9B522C000BDC11 /* MTViewController.m in Sources */,
+				0A6283CF1F9B3C27000BDC11 /* main.m in Sources */,
+				0A6283C11F9B3C27000BDC11 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A6283C51F9B3C27000BDC11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6283C61F9B3C27000BDC11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A6283CA1F9B3C27000BDC11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6283CB1F9B3C27000BDC11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A6283D01F9B3C27000BDC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A6283D11F9B3C27000BDC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A6283D31F9B3C27000BDC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = "ScrollView的常见处理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gjianhao.ScrollView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A6283D41F9B3C27000BDC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = "ScrollView的常见处理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gjianhao.ScrollView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6283B71F9B3C27000BDC11 /* Build configuration list for PBXProject "ScrollView的常见处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6283D01F9B3C27000BDC11 /* Debug */,
+				0A6283D11F9B3C27000BDC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6283D21F9B3C27000BDC11 /* Build configuration list for PBXNativeTarget "ScrollView的常见处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6283D31F9B3C27000BDC11 /* Debug */,
+				0A6283D41F9B3C27000BDC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A6283B41F9B3C27000BDC11 /* Project object */;
+}
